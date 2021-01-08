@@ -22,3 +22,8 @@ Workspace exploration allows evolutionary development of images; by selecting â€
 Images can then be downloaded via the model workspace
 
 ![](http://dev.universalities.com/ghibli/img_selection.png)
+
+Latent walk videos are generated via GPU on RunwayML using linear interpolation between selected or random frames:
+![](http://dev.universalities.com/ghibli/linear_interp_video.png)
+
+[![Video on YouTube](http://dev.universalities.com/ghibli/video_thumb.png)](https://www.youtube.com/watch?v=N6O4oKaZiCE "Studio Ghibli Latent Walk")
