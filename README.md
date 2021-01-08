@@ -1,16 +1,12 @@
 # StyleGAN2 training on Studio Ghibli video frames
 
-![](http://dev.universalities.com/ghibli/ghibli_selected_interp_S.gif)
-
 This is *only the data processing part* for generating latent space walks through video frames.
 
 First, selected images were scraped from the Studio Ghibli Japan website (`screen_scrape.ipynb`)
 
-![](http://dev.universalities.com/ghibli/files.png)
-
 A [RunwayML](https://runwayml.com/) StyleGAN2 (NVIDIA) model is pre-trained on 70k+ illustrations from Wikipedia, then trained on selected Ghibli video frames.
 
-![](http://dev.universalities.com/ghibli/ghibli_training.gif)
+![](http://dev.universalities.com/ghibli/selected_v_green.png)
 
 Model workspaces allow user input navigation through latent space to ‘optimal’ images
 
