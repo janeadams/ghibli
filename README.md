@@ -28,10 +28,14 @@ Latent walk videos are generated via GPU on RunwayML using linear interpolation 
 
 ![](http://dev.universalities.com/ghibli/linear_interp_video.png)
 
-[![Video on YouTube](http://dev.universalities.com/ghibli/video_thumb.png)](https://www.youtube.com/watch?v=N6O4oKaZiCE "Studio Ghibli Latent Walk")
+[![Video on YouTube](http://dev.universalities.com/ghibli/video_thumb.png)](https://www.youtube.com/watch?v=N6O4oKaZiCE)
 
 ### FAQ
 
 #### How much does it cost?
 
 Training image models on RunwayML is $0.005 per step, so $15 to train for 3k steps (took about 4 hours). Generating a latent walk video on GPU using linear interpolation is costs $0.05 per minute (running time), so for a 4-minute video it was about ~$8 and took about 2.5 hours. So, 6 hours and $23 total -- not cheap, but good for a first-time experimenter looking to use a no-code environment. If I make more in the future, I'll probably use TensorFlow to train the model from the NVIDIA StyleGAN2, and run on another cloud compute GPU system ([Google GPU prices](https://cloud.google.com/compute/gpus-pricing)). StyleGAN2 is open source, [here](https://github.com/NVlabs/stylegan2)
+
+#### What about the carbon footprint?
+
+The cloud GPUs I use are carbon-neutral; however, there is still some energy usage involved in uploading, downloading, and processing training data and post-processing videos. A portion of all my art sales goes towards purchasing carbon offset credits. Still, carbon offset does have high overhead costs that don't go directly to renewables or conservation. I vet my carbon credit suppliers carefully, and also VOTE. We can't all do a lot, but everyone can do a little.
